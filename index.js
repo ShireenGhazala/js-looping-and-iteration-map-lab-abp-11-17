@@ -10,7 +10,7 @@ function lowerCaseDrivers(drivers){
     newDr= drivers.map(function(driver){
       let uName= (driver.name).toUpperCase();
       let uHometown= (driver.hometown).toUpperCase();
-      return `<${uName}> is from <${uHometown}> `
+      return `<${uName}> is from <${uHometown}>`
 });
 return newDr;
   }
