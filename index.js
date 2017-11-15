@@ -11,6 +11,6 @@ function lowerCaseDrivers(drivers){
       let uName= (driver.name).toUpperCase();
       let uHometown= (driver.hometown).toUpperCase();
       return `<${uName}> is from <${uHometown}> `
-
-    }
+});
+return newDr;
   }
