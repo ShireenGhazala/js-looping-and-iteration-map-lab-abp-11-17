@@ -8,12 +8,8 @@ function lowerCaseDrivers(drivers){
 
 function nameToAttributes(drivers){
   newD{}= drivers.map(function(driver){
-    
-    }
 
-  })
-}
-
+  
   function attributesToPhrase(drivers){
     newDr= drivers.map(function(driver){
       return `${driver.name} is from ${driver.hometown}`
