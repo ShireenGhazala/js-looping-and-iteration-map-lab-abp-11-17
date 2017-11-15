@@ -5,3 +5,12 @@ function lowerCaseDrivers(drivers){
   })
   return newDrivers;
 }
+
+  function attributesToPhrase(drivers){
+    newDr= drivers.map(function(driver){
+      let uName= (driver.name).toUpperCase();
+      let uHometown= (driver.hometown).toUpperCase(); 
+      return `<${(driver.name)}> `
+      
+    }
+  }
