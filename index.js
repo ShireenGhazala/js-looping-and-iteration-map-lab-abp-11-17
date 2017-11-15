@@ -7,13 +7,11 @@ function lowerCaseDrivers(drivers){
 }
 
 function nameToAttributes(drivers){
-  newD{}= drivers.map(function(driver){
+ drivers.map(function(driver){
   let fName= driver.split(" ") [0];
   let lName= driver.split(" ") [1];
   return { firstName: fName, lastName: lName};
-
-
-})
+});
 }
 
   function attributesToPhrase(drivers){
