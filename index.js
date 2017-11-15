@@ -8,9 +8,7 @@ function lowerCaseDrivers(drivers){
 
   function attributesToPhrase(drivers){
     newDr= drivers.map(function(driver){
-      let uName= (driver.name).toUpperCase();
-      let uHometown= (driver.hometown).toUpperCase();
-      return `<${uName}> is from <${uHometown}>`
+      return `<${driver.name}> is from <${driver.hometown}>`
 });
 return newDr;
   }
